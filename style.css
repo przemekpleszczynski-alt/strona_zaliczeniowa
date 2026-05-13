@@ -1,0 +1,90 @@
+/* Podstawowe tło i czcionka dla całej strony */
+body {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Złoty kolor dla nagłówków */
+h1, h2, h3 {
+    color: #d4af37;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Własny wygląd menu górnego (nadpisuje Bootstrapa) */
+.moje-menu {
+    background-color: #111111 !important;
+    border-bottom: 2px solid #d4af37;
+}
+
+.moje-menu a {
+    color: #ffffff !important;
+}
+
+.moje-menu a:hover {
+    color: #d4af37 !important;
+}
+
+/* Duży obrazek na stronie głównej */
+.glowny-obrazek {
+    width: 100%;
+    border: 2px solid #d4af37;
+    margin-bottom: 20px;
+}
+
+/* Własne style dla kart (Komponent 1) */
+.moja-karta {
+    background-color: #444444;
+    border: 1px solid #d4af37;
+    color: white;
+}
+
+/* Własne style dla tabeli (Komponent 2) */
+.moja-tabela th {
+    background-color: #d4af37;
+    color: black;
+}
+
+.moja-tabela td {
+    background-color: #444444;
+    color: white;
+    border-color: #2b2b2b;
+}
+
+/* Własny przycisk formularza */
+.moj-przycisk {
+    background-color: #d4af37;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.moj-przycisk:hover {
+    background-color: #ffffff;
+}
+
+/* Prosta stopka na dole strony */
+.stopka {
+    background-color: #111111;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #d4af37;
+}
+
+.moja-karta img {
+    height: auto;         /* Zdjęcie nie będzie wymuszane do 250px */
+    max-height: 300px;    /* Ograniczenie, żeby nie było za wielkie */
+    width: 100%;
+    object-fit: scale-down; /* Dopasuje zdjęcie tak, by nie było rozciągnięte */
+}
+.opis-strony {
+    color: #ffffff; 
+    font-size: 1.5rem;        
+    text-align: center;       
+    margin-bottom: 20px;      
+}

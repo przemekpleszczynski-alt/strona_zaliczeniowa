@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiedza - Klub Aficionado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg moje-menu">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color: #d4af37 !important; font-weight: bold;">Aficionado</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mojeMenu">
+                    <span class="navbar-toggler-icon" style="background-color: gray;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mojeMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Główna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="historia.html">Historia i Rodzaje</a></li>
+                        <li class="nav-item"><a class="nav-link" href="wiedza.html">Baza Wiedzy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <h2>Dlaczego cygaro to nie papieros?</h2>
+        
+        <!-- KOMPONENT 3: Tabela Bootstrap -->
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered moja-tabela text-center">
+                    <thead>
+                        <tr>
+                            <th>Cechy Porównawcze</th>
+                            <th>Tradycyjne Cygaro</th>
+                            <th>Zwykły Papieros</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Technika palenia</td>
+                            <td>Dymu nie zaciąga się do płuc.</td>
+                            <td>Dym jest zaciągany do płuc.</td>
+                        </tr>
+                        <tr>
+                            <td>Skład</td>
+                            <td>100% naturalnych liści tytoniu.</td>
+                            <td>Przetworzony tytoń w papierze.</td>
+                        </tr>
+                        <tr>
+                            <td>Cel</td>
+                            <td>Degustacja i relaks.</td>
+                            <td>Szybkie zaspokojenie nałogu.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2>Od czego zależy cena luksusowego cygara?</h2>
+        
+        <!-- KOMPONENT 4: Akordeon Bootstrap -->
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="mojAkordeon">
+                    
+                    <div class="accordion-item" style="background-color: #444; border: 1px solid #d4af37;">
+                        <h2 class="accordion-header" id="tytul1" style="margin: 0;">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tresc1" style="background-color: #222; color: #d4af37;">
+                                1. W 100% Ręczna Produkcja
+                            </button>
+                        </h2>
+                        <div id="tresc1" class="accordion-collapse collapse" data-bs-parent="#mojAkordeon">
+                            <div class="accordion-body text-white">
+                                Najdroższe cygara nie widzą maszyny na żadnym etapie produkcji. Od zbioru liści na plantacji, po zwijanie przez mistrzów. Wymaga to dziesiątek rąk pracujących przez wiele tygodni.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background-color: #444; border: 1px solid #d4af37; margin-top: 5px;">
+                        <h2 class="accordion-header" id="tytul2" style="margin: 0;">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tresc2" style="background-color: #222; color: #d4af37;">
+                                2. Proces Fermentacji i Wiek Tytoniu
+                            </button>
+                        </h2>
+                        <div id="tresc2" class="accordion-collapse collapse" data-bs-parent="#mojAkordeon">
+                            <div class="accordion-body text-white">
+                                Podobnie jak dobre wino, tytoń potrzebuje lat, aby dojrzeć. Edycje limitowane składają się z tytoniu, który dojrzewał od 3 do nawet 10 lat, co generuje ogromne koszty magazynowania.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="stopka">
+        <p>&copy; 2026 Klub Aficionado. Projekt na zaliczenie.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
