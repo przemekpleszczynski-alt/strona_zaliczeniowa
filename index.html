@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klub Aficionado - Strona Główna</title>
-    <!-- Ładowanie Bootstrapa -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Nasz własny plik CSS -->
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Nawigacja -->
+    
     <header>
         <nav class="navbar navbar-expand-lg moje-menu">
             <div class="container">
                 <a class="navbar-brand" href="index.html" style="color: #d4af37 !important; font-weight: bold;">Aficionado</a>
-                <!-- Przycisk hamburger -->
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mojeMenu">
                     <span class="navbar-toggler-icon" style="background-color: gray;"></span>
                 </button>
@@ -33,13 +33,13 @@
         </nav>
     </header>
 
-    <!-- Główna treść -->
+    
     <main class="container">
         <h1>Sztuka Degustacji Czasu</h1>
         
         <div class="row">
             <div class="col-md-12 text-center">
-                <!-- Zwykły obrazek zamiast skomplikowanego tła CSS -->
+                
                 <img src="https://t4.ftcdn.net/jpg/19/80/90/63/360_F_1980906309_rhztTvECuEdhX356QiodbPNXkQONZLGR.jpg" alt="Cygaro" class="glowny-obrazek">
                 
                <p class="opis-strony">Poznaj świat, w którym pośpiech nie istnieje. Odkryj sekrety najwyższej klasy ręcznie zwijanych cygar, które od wieków towarzyszą największym myślicielom i liderom.</p>
@@ -48,7 +48,7 @@
         </div>
     </main>
 
-    <!-- KOMPONENT 1: Modal (Okienko wyskakujące) -->
+    
     <div class="modal fade" id="okienkoWieku" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content" style="background-color: #333; color: white;">
@@ -71,9 +71,9 @@
         <p>&copy; 2026 Klub Aficionado. Projekt na zaliczenie.</p>
     </footer>
 
-    <!-- Skrypty Bootstrapa -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Prosty skrypt pokazujący modal przy wejściu -->
+    
     <script>
         window.onload = function() {
             var myModal = new bootstrap.Modal(document.getElementById('okienkoWieku'));
